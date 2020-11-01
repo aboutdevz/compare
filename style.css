@@ -1,10 +1,8 @@
-/* biar pagenya tidak ada margin dan padding default */
 *{
     font-family: sans-serif;
     margin:0;
     padding:0;
 }
-/* style untuk gambar icon di navbar */
 .gambar img{
     width: auto;
     height: 60px;
@@ -13,7 +11,7 @@
     border-radius: 7px;
 }
 
-/* navbar */
+
 .navbar {
     background-color: rgba(0, 255, 0, 1);
     height: 73px;
@@ -21,7 +19,6 @@
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .navbar ul {
     list-style-type: none;
     margin-left: 50px;
@@ -31,13 +28,15 @@
   .navbar form input {
     height: 30px;
     width: 311px;
-    float:right;
     border:none;
+    position: absolute;
+    top:20px;
+    right: 62px;
     border-radius:11px;
   }
   .navbar form {
     float:left;
-    clear: both;
+    margin-left: 15%;
   }
   
   .navbar li {
@@ -55,29 +54,19 @@
     font-size: 15pt;
   }
   
-  /* Change the link color to #111 (black) on hover */
+
+
+  /* kalo di hover bakal keganti */
   .navbar li a:hover {
-    color: black;
+    color: rgb(59, 153, 98);
     
   }
-  /* navbar */
 
   /* Navbar container */
-.navbardrop {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
-}
+
 
 /* Links inside the navbar */
-.navbardrop a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+
 
 /* The dropdown container */
 .dropdown {
@@ -92,31 +81,33 @@
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: white;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
-.navbardrop a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgba(0, 255, 0, 1);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   z-index: 1;
+  margin: 5px 0 5px 0;
+  top: 50px;
 }
+/* dani lu mute? */
 
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
+  font-weight: bold;
   padding: 12px 16px;
+  
   text-decoration: none;
   display: block;
   text-align: left;
@@ -124,7 +115,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: rgb(50, 255, 150);
 }
 
 /* Show the dropdown menu on hover */

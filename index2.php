@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>ANJAI MABAR</title>
+    <title>Landing Page</title>
 </head>
 <body>
         <div class="navbar">
@@ -14,10 +15,10 @@
             </div>
             <ul>
               
-              <li><a href="Halaman1.php"><b>Tentang Kita</b></a></li>
+              <li><a href="Halaman1.html"><b>Home</b></a></li>
                   <div class="dropdown">
                     
-                  <li><a href="Halaman2.html"><b>Kartu Grafik</b></a></li>
+                  <li><a href="Halaman2.html"><b>Graphic Cards</b></a></li>
                     
                     <div class="dropdown-content">
                       <a href="#">Perbandingan Kartu Grafik</a>
@@ -30,7 +31,7 @@
                   </div>
                   <div class="dropdown">
                     
-                  <li><a href="Halaman3.html"><b>Prosesor</b></a></li>
+                  <li><a href="Halaman3.html"><b>Processors</b></a></li>
                     
                     <div class="dropdown-content">
                       <a href="#">Perbandingan Prosesor</a>
@@ -43,11 +44,11 @@
                   </div>
                   <div class="dropdown">
                     
-                  <li><a href="Halaman4.html"><b>Game</db></a></li>
+                  <li><a href="Halaman4.html"><b>Games</db></a></li>
                     
                     <div class="dropdown-content">
-                      <a href="#">Bisakah Saya Menjalankannya</a>
-                      <a href="#">Game Apa yang Bisa Saya Jalankan</a>
+                      <a href="#">Link 1 games</a>
+                      <a href="#"></a>
                     </div>
                   </div>
             </ul>
@@ -57,8 +58,5 @@
         </form>
     </div>
         <h1 id="tanda"></h1>
-
-
 </body>
 </html>
-
